@@ -21,7 +21,7 @@ include $(CLEAR_VARS)
 
 # Add in extra warnings.
 LOCAL_CFLAGS += -Wall
-LOCAL_CPPFLAGS += -Wall -fno-strict-aliasing
+LOCAL_CPPFLAGS += -Wall
 
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_MODULE := libvariablespeed
